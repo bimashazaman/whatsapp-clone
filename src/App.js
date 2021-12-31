@@ -2,6 +2,7 @@ import './App.css'
 import React from 'react'
 import styled from 'styled-components'
 import Sidebar from './Components/Sidebar'
+import Chat from './Components/Chat'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Container>
         <Body>
           <Sidebar />
+          <Chat />
         </Body>
       </Container>
     </div>
